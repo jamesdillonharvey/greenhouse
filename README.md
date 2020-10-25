@@ -1,5 +1,9 @@
 # greenhouse
 
+## start
+
+`sudo apt upgrade`
+
 ## greenhouse wifi
 
 `/etc/rc.local`
