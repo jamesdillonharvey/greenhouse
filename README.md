@@ -1,5 +1,7 @@
 # greenhouse
 
+start from scratch
+
 ## start
 
 `sudo apt upgrade`
