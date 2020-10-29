@@ -24,6 +24,10 @@ sudo vim wpa_supplicant.conf
 
 sudo sync
 
+cd ..
+
+sudo umount /dev/sda1
+
 ```
 
 
