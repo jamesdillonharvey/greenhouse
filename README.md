@@ -7,7 +7,23 @@ https://www.raspberrypi.org/documentation/installation/installing-images/linux.m
 ```
 lsblk -p
 
+
+sudo umount /dev/sda1
+sudo umount /dev/sda2
+
 unzip -p raspios_lite_armhf_latest | sudo dd of=/dev/sda bs=4M status=progress conv=fsync
+
+
+sudo mount /dev/sda1 /media/pi/
+
+cd /media/pi/
+
+sudo touch ssh
+
+sudo vim wpa_supplicant.conf
+
+sudo sync
+
 ```
 
 
