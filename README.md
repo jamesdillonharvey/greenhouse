@@ -11,8 +11,8 @@ lsblk -p
 sudo umount /dev/sda1
 sudo umount /dev/sda2
 
-unzip -p raspios_lite_armhf_latest | sudo dd of=/dev/sda bs=4M status=progress conv=fsync
-
+unzip raspios_lite_armhf_latest
+sudo dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sda bs=4M status=progress conv=fsync
 
 sudo mount /dev/sda1 /media/pi/
 
