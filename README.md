@@ -47,3 +47,8 @@ sudo crontab -e
 sudo crontab -l
 
 ```
+
+
+## logging for free?
+
+https://io.adafruit.com/
