@@ -5,6 +5,14 @@
 https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
 
 ```
+lsblk -p
+
+unzip -p raspios_lite_armhf_latest | sudo dd of=/dev/sda bs=4M status=progress conv=fsync
+```
+
+
+
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=GB
