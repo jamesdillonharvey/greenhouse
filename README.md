@@ -1,5 +1,22 @@
 # greenhouse
 
+## Image
+
+https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=GB
+
+network={
+ ssid=""
+ psk=""
+}
+
+```
+
+
 start from scratch
 
 ## start
