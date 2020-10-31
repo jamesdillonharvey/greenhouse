@@ -150,3 +150,18 @@ while True:
  
     time.sleep(2.0)
 ```
+
+
+## connection issue
+
+cant run top or vim
+
+change mtu size
+
+```
+   36  ifconfig
+   37  sudo /sbin/ifconfig wlan0 mtu 1036
+   38  sudo /etc/init.d/networking restart
+   39  ifconfig
+
+```
