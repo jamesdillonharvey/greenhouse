@@ -16,8 +16,6 @@ Environment=PYTHONUNBUFFERED=1
 # Automatically restart the service if it crashes
 Restart=on-failure
 
-# Our service will notify systemd once it is up and running
-Type=notify
 
 TimeoutStartSec=300
 
