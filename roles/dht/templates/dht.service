@@ -5,6 +5,7 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
+User=pi
 # Command to execute when the service is started
 ExecStart="/usr/bin/python3 {{base_dir}}/dht11.py"
 
