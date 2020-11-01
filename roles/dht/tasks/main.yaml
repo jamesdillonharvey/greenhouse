@@ -16,4 +16,8 @@
 
 - name: Start service
   become: true
-  systemd: name=dht state=restarted enabled=yes
+  systemd: 
+    name: dht
+    daemon_reload: yes
+    state: restarted 
+    enabled: yes
