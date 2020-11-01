@@ -44,13 +44,32 @@ network={
 
 ```
 
-## Log in
+## Log and manual setup
 ```
 sudo /sbin/ifconfig wlan0 mtu 1036
 sudo /etc/init.d/networking restart
 sudo apt-get install git -y
+git clone https://github.com/jamesdillonharvey/greenhouse.git
 
 ```
+
+## install ansible
+```
+
+
+
+```
+
+## Run ansible
+
+```
+
+
+
+```
+
+
+
 
 start from scratch
 
