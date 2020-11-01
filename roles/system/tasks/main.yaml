@@ -4,4 +4,9 @@
     upgrade: yes
     update_cache: yes
     
+- name: Install bottle python package
+  pip:
+    name: Adafruit_DHT
+    executable: pip3
+    
     
