@@ -11,6 +11,12 @@
 - name: Deploy dht
   become: true
   copy: src=dht.service dest=/etc/systemd/system/
+  
+- name: Deploy dht
+  become: true
+  template:
+    src: dht.service
+    dest: /etc/systemd/system/
 
 - name: Start service
   become: true
