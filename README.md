@@ -68,6 +68,11 @@ ansible-playbook run.yaml
 ```
 
 
+## DHT
+
+From here : https://www.thegeekpub.com/236867/using-the-dht11-temperature-sensor-with-the-raspberry-pi/
+
+
 
 
 
