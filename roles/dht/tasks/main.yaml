@@ -1,12 +1,12 @@
 - name: Create a directory if it does not exist
   become: true
   file:
-    path: {{base_dir}}
+    path: "{{base_dir}}"
     state: directory
     
 - name: Deploy dht script
   become: true
-  copy: src=dht11.py dest={{base_dir}}
+  copy: src=dht11.py dest="{{base_dir}}"
 
 - name: Deploy dht
   become: true
