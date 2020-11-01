@@ -1,5 +1,7 @@
 - name: Deploy dht
+  become: true
   copy: src=dht.service dest=/etc/systemd/system/
 
 - name: Start service
+  become: true
   systemd: name=dht state=restarted enabled=yes
