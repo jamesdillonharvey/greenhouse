@@ -44,6 +44,13 @@ network={
 
 ```
 
+## Log in
+```
+sudo /sbin/ifconfig wlan0 mtu 1036
+sudo /etc/init.d/networking restart
+sudo apt-get install git -y
+
+```
 
 start from scratch
 
