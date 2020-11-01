@@ -19,6 +19,8 @@ Restart=on-failure
 # Our service will notify systemd once it is up and running
 Type=notify
 
+TimeoutStartSec=300
+
 [Install]
 
 # Tell systemd to automatically start this service when the system boots
