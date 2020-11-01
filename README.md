@@ -55,15 +55,14 @@ git clone https://github.com/jamesdillonharvey/greenhouse.git
 
 ## install ansible
 ```
-
-
+sudo apt-get install ansible -y
 
 ```
 
 ## Run ansible
 
 ```
-
+ansible-playbook run.yaml
 
 
 ```
