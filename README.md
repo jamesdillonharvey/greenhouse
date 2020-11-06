@@ -14,6 +14,10 @@ sudo umount /dev/sda2
 unzip raspios_lite_armhf_latest
 sudo dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sda bs=4M status=progress conv=fsync
 
+## OR DIRECT FROM ZIP
+unzip -p raspios_full_armhf_latest | sudo dd of=/dev/sda bs=4M status=progress conv=fsync
+##
+
 sudo mount /dev/sda1 /media/pi/
 
 cd /media/pi/
