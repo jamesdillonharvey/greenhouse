@@ -1,13 +1,13 @@
 [Unit]
 # Human readable name of the unit
-Description=dht service
+Description=dht out service
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 User=pi
 # Command to execute when the service is started
-ExecStart=/usr/bin/python3 "{{base_dir}}/dht11.py"
+ExecStart=/usr/bin/python3 "{{base_dir}}/dht11.py --pin 2"
 
 # Disable Python's buffering of STDOUT and STDERR, so that output from the
 # service shows up immediately in systemd's logs
