@@ -8,16 +8,31 @@
   become: true
   copy: src=dht11.py dest="{{base_dir}}"
 
-- name: Deploy dht
+- name: Deploy dht in
   become: true
   template:
-    src: dht.service
+    src: dht_in.service
     dest: /etc/systemd/system/
 
-- name: Start service
+- name: Start service in
   become: true
   systemd: 
-    name: dht
+    name: dht_in
     daemon_reload: yes
     state: restarted 
     enabled: yes
+    
+    
+- name: Deploy dht out
+  become: true
+  template:
+    src: dht_out.service
+    dest: /etc/systemd/system/
+
+- name: Start service out
+  become: true
+  systemd: 
+    name: dht_out
+    daemon_reload: yes
+    state: restarted 
+    enabled: yes    
