@@ -16,6 +16,7 @@ Environment=PYTHONUNBUFFERED=1
 # Automatically restart the service if it crashes
 Restart=on-failure
 
+SyslogIdentifier=outside_temp
 
 TimeoutStartSec=300
 
