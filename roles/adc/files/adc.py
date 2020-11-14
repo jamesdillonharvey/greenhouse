@@ -24,15 +24,15 @@ pcf = PCF.PCF8591(i2c)
 pcf_in_0 = AnalogIn(pcf, PCF.A0)
 #pcf_out = AnalogOut(pcf, PCF.OUT)
  
-while True:
+# reading at 30v with 10k, 1k and 220 Resistiors 
+scale_voltage = 30/65280
  
+while True:
+   
     raw_value = pcf_in_0.value
-    ref_value = pcf_in_0.reference_voltage
     print("raw Pin 0: %0.2f" % (raw_value))
-    print("scale Pin 0: %0.2fV" % (ref_value))
-    scaled_value = (raw_value / 65535) * pcf_in_0.reference_voltage
+    scaled_value = (raw_value * scale_voltage)
     print("scale Pin 0: %0.2fV" % (scaled_value))
-    print("")
     time.sleep(3)
  
 
