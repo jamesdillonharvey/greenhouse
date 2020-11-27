@@ -25,7 +25,7 @@ pcf_in_0 = AnalogIn(pcf, PCF.A0)
 #pcf_out = AnalogOut(pcf, PCF.OUT)
  
 # reading at 30v with 10k, 1k and 220 Resistiors 
-scale_voltage = 30/65280
+scale_voltage = 46/65280
  
 while True:
    
