@@ -2,7 +2,7 @@
  
 while true; do 
 # Read Temperature
-tempread=`cat /sys/bus/w1/devices/10-000802b4ba0e/w1_slave`
+tempread=`cat /sys/bus/w1/devices/28-01191c92e270/w1_slave`
 # Format
 temp=`echo "scale=2; "\`echo ${tempread##*=}\`" / 1000" | bc`
  
