@@ -1,0 +1,10 @@
+
+
+it worked simply going in (sudo) raspi-config / interafacing options / 1 wire
+(with raspberry pi 4 but this tutorial was not working with pi 1 either)
+
+
+```
+cd /sys/bus/w1/devices/
+ls
+```
