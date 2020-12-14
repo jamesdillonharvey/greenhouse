@@ -16,3 +16,5 @@ nice white, dry and hard yolk
   - egg from fridge
   - water to line
   - 10:20 - 21.75 - target 75
+  - 11:00 - 75 - target 63
+  - 11:40 - 63
