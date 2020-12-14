@@ -18,3 +18,12 @@ nice white, dry and hard yolk
   - 10:20 - 21.75 - target 75
   - 11:00 - 75 - target 63
   - 11:40 - 63
+  
+nice white, hard yolk, not as hard as 2 Amps  
+
+### 5A - 13.8v - 2 heaters
+  - egg from fridge
+  - water to line
+  - 2 heaters at bottom
+  - sensor touching top of egg.
+  - 12:16 - 23C - target 75C
