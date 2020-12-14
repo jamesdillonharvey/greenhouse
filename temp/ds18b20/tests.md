@@ -9,6 +9,7 @@
   - 10:15 - 63
   
 2 amps is too slow
+nice white, dry and hard yolk
 
 
 ### 3.5 - 13.8v
