@@ -29,3 +29,12 @@ nice white, hard yolk, not as hard as 2 Amps
   - **lid off**
   - 12:16 - 23C - target 75C
   - 13:02 - 75C - target 63C
+  - 13:21 - 66C - opened
+  
+very nice white, hard yolk
+
+### Conclusion
+
+ - Need to get to yolk temperature first
+ - Then fast heat up white (less water)
+ - Then cool rapidly (Heat sync with Fan maybe)
