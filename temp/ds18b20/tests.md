@@ -21,7 +21,7 @@ nice white, dry and hard yolk
   
 nice white, hard yolk, not as hard as 2 Amps  
 
-### 5A - 13.8v - 2 heaters
+### 5A - 9.3v - 2 heaters parallel
   - egg from fridge
   - water to line
   - 2 heaters at bottom
