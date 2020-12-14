@@ -26,4 +26,5 @@ nice white, hard yolk, not as hard as 2 Amps
   - water to line
   - 2 heaters at bottom
   - sensor touching top of egg.
+  - **lid off**
   - 12:16 - 23C - target 75C
