@@ -28,3 +28,4 @@ nice white, hard yolk, not as hard as 2 Amps
   - sensor touching top of egg.
   - **lid off**
   - 12:16 - 23C - target 75C
+  - 13:02 - 75C - target 63C
